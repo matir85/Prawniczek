@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Capture it';
+    src: url(src/capture_it/Capture\ it.ttf)
+}
+
+body {
+    text-align: center;
+    /* margin-top: 20px; */
+    background-color: #A7988B;
+}
+
+header {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: #3A0000;
+}
+
+header>h1 {
+    letter-spacing: 5px;
+    line-height: 10vh;
+    font-family: 'Capture it';
+    font-weight: normal;
+    color: white;
+}
+
+
+
+.nrArt {
+    padding: 5px 5px;
+    border: 1px black solid;
+    text-align: left;
+    font-weight: normal;
+    font-size: 1.3em;
+    background-color: #999999;
+    cursor: pointer;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.txtArt {
+    width: 90%;
+    text-align: left;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: #F1EBE4;
+    font-family: 'Comfortaa', cursive;
+}
+
+.txtArt p {
+    padding: 4px 0;
+    text-indent: 20px;
+}
