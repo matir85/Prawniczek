@@ -307,7 +307,7 @@ const Section = (props) => {
             <h1 className="section">{props.name}</h1>
             <Chapter name={props.chapterName[0]} />
             <Art art={props.art[0]} change={props.change} />
-            <Chapter name={[props.chapterName[0]]} />
+            <Chapter name={[props.chapterName[1]]} />
             <Art art={props.art[1]} change={props.change} />
         </>
     )
