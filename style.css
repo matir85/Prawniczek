@@ -28,6 +28,7 @@ header {
 header>h1 {
     letter-spacing: 5px;
     line-height: 10vh;
+    font-size: 2.4em;
     font-family: 'Capture it';
     font-weight: normal;
     color: white;
@@ -36,7 +37,7 @@ header>h1 {
 
 
 .nrArt {
-    padding: 5px 5px;
+    padding: 5px 10px;
     border: 1px black solid;
     text-align: left;
     font-weight: normal;
@@ -63,4 +64,22 @@ header>h1 {
 .txtArt p {
     padding: 4px 0;
     text-indent: 20px;
+}
+
+.txtArt p .quotation {
+    font-style: italic;
+    color: #555;
+}
+
+
+.section,
+.chapter {
+    font-family: 'Patrick Hand', cursive;
+    border: 1px black solid;
+    padding: 5px 10px;
+}
+
+.chapter {
+    text-align: left;
+
 }
